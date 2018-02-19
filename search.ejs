@@ -1,0 +1,9 @@
+<!-- search file contains a form where we submit our request which is sent to 'requests'. 
+'requests' sends an api request to omdb and receives a response(result)
+then the response is sent to search-results file to be displayed to a user -->
+
+<h1>Which movie you want to search for?</h1>
+<form action="/results" method="GET">
+    <input type="text" name="movieTitle" placeholder="enter a title">
+    <input type="submit">
+</form>
